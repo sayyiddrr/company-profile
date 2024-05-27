@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="{{ asset('template_login/css/style.css') }}">
-  <div class="wrapper">
+  <div class="wrapper warna">
           <div class="logo">
-              <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt="">
+              <img src="{{ asset('template_login/img/admin.png')}}" alt="">
           </div>
           <div class="text-center mt-4 mb-4 name">
               Admin Login

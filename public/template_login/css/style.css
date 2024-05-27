@@ -28,6 +28,10 @@ body {
     margin: auto;
 }
 
+.warna {
+    background-color: #15283c;
+}
+
 .logo img {
     width: 100%;
     height: 80px;
@@ -44,7 +48,7 @@ body {
     font-size: 1.4rem;
     letter-spacing: 1.3px;
     padding-left: 10px;
-    color: #555;
+    color: #fff;
     margin-bottom: 3;
 }
 
@@ -55,7 +59,7 @@ body {
     outline: none;
     background: none;
     font-size: 1.2rem;
-    color: #666;
+    color: #fff;
     padding: 10px 15px 10px 10px;
     /* border: 1px solid red; */
 }
