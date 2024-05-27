@@ -6,9 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/login', [AdminController::class, 'login'])->name('login');
-Route::get('/', function () {
-    return view('admin');
-});
+Route::get('/admin', [AdminController::Class, 'admin'])->name('admin');
 
 // Route::get('', [App\Http\Controllers\NamaController::class, ''])->name('');
 // Route::get('', [NamaController:class, ''])->name('');
